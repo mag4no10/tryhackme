@@ -1,0 +1,17 @@
+Target: http://10.10.220.114/FUZZ
+Total requests: 20469
+==================================================================
+ID    Response   Lines      Word         Chars          Request    
+==================================================================
+00878:  C=403      9 L	      28 W	    278 Ch	  ".htpasswd"
+00877:  C=403      9 L	      28 W	    278 Ch	  ".htaccess"
+05525:  C=301      9 L	      28 W	    312 Ch	  "css"
+10204:  C=301      9 L	      28 W	    311 Ch	  "js"
+13442:  C=301      9 L	      28 W	    314 Ch	  "panel"
+16238:  C=403      9 L	      28 W	    278 Ch	  "server-status"
+18807:  C=301      9 L	      28 W	    316 Ch	  "uploads"
+
+Total time: 0
+Processed Requests: 20469
+Filtered Requests: 20462
+Requests/sec.: 0
